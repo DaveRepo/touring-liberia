@@ -8,14 +8,14 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <>
+    <React.Fragment>
      <Navbar/>
      <Hero/>
      <About/>
      <Services/>
      <Tours/>
      <Footer/>
-    </>
+    </React.Fragment>
   );
 }
 

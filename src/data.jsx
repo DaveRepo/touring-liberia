@@ -96,4 +96,4 @@ export const tours = [
     cost:3300
 
   },
-]
+];
