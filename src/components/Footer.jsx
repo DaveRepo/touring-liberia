@@ -1,4 +1,4 @@
-import { pageLinks, socialLinks } from '../data'
+import { socialLinks } from '../data'
 import PageLinks from './PageLinks'
 import SocialLink from './SocialLink'
 const Footer = () => {
@@ -11,7 +11,7 @@ const Footer = () => {
         })}
       </ul>
       <p className='copyright'>
-        copyright &copy; Backroads travel tours company
+        copyright &copy; RhotelHub travel tours company
         <span id='date'>{new Date().getFullYear()}</span>. all rights reserved
       </p>
     </footer>
