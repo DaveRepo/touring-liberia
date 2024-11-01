@@ -371,7 +371,7 @@ export default Services
     - git add
       adds new or changed files in your working directory
       to the Git staging area
-    - git add .
+    - git add 
       adds entire project
       apart from files/directories specified in .gitignore
     - git commit -m "first commit"
@@ -402,3 +402,4 @@ package.json
     "eject": "react-scripts eject"
   },
 ```
+.
